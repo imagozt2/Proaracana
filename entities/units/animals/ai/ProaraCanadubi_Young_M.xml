@@ -1,0 +1,32 @@
+<BFTypedBinder binderType="ProaraCanadubi_Young_M">
+   <types>
+      <entity>
+         <actor>
+            <animal>
+               <Actinopterygii>
+                  <Anguilliformes>
+                     <Muraenidae>
+                        <ProaraCanadubi>
+                           <ProaraCanadubi_Young>
+                              <ProaraCanadubi_Young_M/>
+                           </ProaraCanadubi_Young>
+                        </ProaraCanadubi>
+                     </Muraenidae>
+                  </Anguilliformes>
+               </Actinopterygii>
+            </animal>
+         </actor>
+      </entity>
+   </types>
+   <instance>
+      <BFGEntity/>
+   </instance>
+   <shared>
+      <UIToggleButton template="adopt">
+         <on>
+            <event msg="ZT_SETPLACEMENTOBJECT" data="BFString" string="ProaraCanadubi_Young_M"/>
+         </on>
+      </UIToggleButton>
+      <BFAIEntityDataShared b_Male="1"/>
+   </shared>
+</BFTypedBinder>
